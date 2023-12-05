@@ -1,0 +1,11 @@
+cro = str(input())
+
+cro = cro.replace('c=','*')
+cro = cro.replace('c-','*')
+cro = cro.replace('dz=','*')
+cro = cro.replace('d-','*')
+cro = cro.replace('lj','*')
+cro = cro.replace('nj','*')
+cro = cro.replace('s=','*')
+cro = cro.replace('z=','*')
+print(len(cro))
